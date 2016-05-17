@@ -1,0 +1,21 @@
+#Redirect 301 ^/(.+)davidwkennedy(.+)$ http://davewkennedy.com/
+#Redirect 301 / http://davewkennedy.com/
+
+#Redirect 301 ^/(.+)utahpsychconf(.+)$ http://upcur.orderinchaos.org/
+#Redirect 301 / http://upcur.orderinchaos.org/
+
+#RewriteCond %{HTTP_HOST} ^(www\.)?davidwkennedy\.com [NC]
+#RewriteRule ^(.*)$ http://davewkennedy.com/$1 [R=301,L]
+
+#RewriteCond %{HTTP_HOST} ^(www\.)?utahpsychconf\.org [NC]
+#RewriteRule ^projects http://upcur.orderinchaos.org/$1 [R=301,L]
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+</IfModule>
+

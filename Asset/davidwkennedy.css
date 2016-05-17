@@ -1,0 +1,153 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+span.line {
+    height: 2px;
+    width: 100px;
+    position: relative;
+    top: -5px;
+    display: inline-block;
+    zoom: 1;
+    float: none;
+    background: #fff;
+    box-shadow: 0 1px 1px #000000;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+span.subtitle, .pullquote {
+    font-family: georgia;
+    font-style: italic;
+    color: white;
+}
+
+.pullquote {
+    color: #601a0b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.author {
+    font-style: normal;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    padding-right: 20px;
+}
+
+#ImageBackground {
+    width: 100%;
+    background-image: url('/Asset/Sierra.jpg');
+    padding: 0;
+    margin: 0;
+    /*background-size: 100%;*/
+    background-size: cover;
+}
+
+#ImageBackground_AboutMe {
+    background-image: url('/Asset/aboutme.jpg');
+    background-size: cover;
+}
+
+#ImageBackground_Scotch {
+    background-image: url('/Asset/scotchpage.jpg');
+    background-size: cover;
+}
+
+#ImageBackground_Backpacking {
+    background-image: url('/Asset/backpacking2.jpg');
+    background-size: cover;
+}
+
+#ImageBackground_Nerd {
+    background-image: url('/Asset/nerdpage.jpg');
+    background-size: cover;
+}
+
+#ImageBackground_Advntur {
+    background-image: url('/Asset/advnturpage.jpg');
+    background-size: cover;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 10%;
+    width: 100%;
+}
+
+#title {
+    font-family: arial;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.infoblock {
+    width: 780px;
+    margin: 40px auto;
+    clear: both;
+    transition: all 0.5s;
+    padding: 22px 22px 22px 0;
+}
+
+.infoblock:hover {
+    cursor: pointer;
+    background-color: #d3effb;
+}
+
+.infoblock_left {
+    border: solid 0 transparent;
+    width: 300px;
+    float: left;
+}
+
+.infoblock_right {
+    width: 480px;
+    float: right;
+    text-align: justify
+}
+
+h2 {
+    color: #2e74b5;
+    text-transform: uppercase;
+}
+
+
+#advntur_heading {
+    text-indent: -999999px;
+    background-image: url('/Asset/advntur.logo.png');
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #165590;
+    font-weight: bold;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #5a9cd9;
+    text-decoration: underline;
+}
+
+.body {
+    width: 780px;
+    margin: 30px auto;
+
+}
+
+#body_scotch {
+    margin-top: 50px;
+}

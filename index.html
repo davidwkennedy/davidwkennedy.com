@@ -1,34 +1,106 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>David W Kennedy</title>
+    <title>David Kennedy</title>
     <meta charset="utf-8" />
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-        }
-
-         #ImageBackground {
-             width: 100%;
-             background-image: url('/Asset/8088.jpg');
-             padding: 0;
-             margin: 0;
-         }
-    </style>
+    <link rel="stylesheet" href="/Asset/davidwkennedy.css"/>
 </head>
-    <body>
-        <div id="ImageBackground">
-            
+<body>
+    <div id="ImageBackground">
+        <div id="subtitle">
+            <span class="line"></span>
+            <span class="subtitle">backpacker &#149; nerd &#149; scotch enthusiast</span>
+            <span class="line"></span>
         </div>
-        
+        <div id="title">
+            David Kennedy
+        </div>
+    </div>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script>
-            $(document).ready(function () {
-                $('#ImageBackground').height($(window).height());
-            })
-        </script>
-    </body>
+
+    <div class="infoblock" data-target="AboutMe">
+        <div class="infoblock_left">
+            <img src="/Asset/profile.jpg" alt="profile picture" style="width: 250px; height: 250px; margin: 0 auto; display: block;" />
+        </div>
+        <div class="infoblock_right">
+            <h2>About Me</h2>
+            <p>
+                I'm Dave, Co-Founder and CTO of Advntur. I live, work, and play, in Southern California. I believe in the Oxford Comma.
+                Despite being a New Englander in spirit, my heart and home is in the West. Deep down, I'm still the same rebellious punk that I was as a teenager, but I've learned to play ball.
+            </p>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="infoblock" data-target="Advntur">
+        <div class="infoblock_left">
+            <img src="/Asset/advntur.jpg" alt="profile picture" style="width: 250px; height: 250px; margin: 0 auto; display: block;" />
+        </div>
+        <div class="infoblock_right">
+            <h2 id="advntur_heading">Advntur</h2>
+            <p>
+                I'm one of two Co-Founders of Advntur. My half of the founding team is the technical side. Advntur is simply <em>the best</em> way for
+                outdoor sporting enthusists to build their own vacation.
+            </p>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="infoblock" data-target="Backpacking">
+        <div class="infoblock_left">
+            <img src="/Asset/backpack.jpg" alt="profile picture" style="width: 250px; height: 250px; margin: 0 auto; display: block;" />
+        </div>
+        <div class="infoblock_right">
+            <h2>Backpacking</h2>
+            Of all my hobbies, backpacking is the one to which I am the most dedicated. My second entry into adulthood (turning 21) was spent backpacking the Continental Divide in Northwestern Wyoming, and it's been nothing but infatuation since.
+            These days I mostly do excursions to the desert mountains of Southern California. I participate in the annual Anza Borrego Bighorn Sheep Census and encourage others to do so as well.
+
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="infoblock" data-target="Nerd">
+        <div class="infoblock_left">
+            <img src="/Asset/nerd.jpg" alt="profile picture" style="width: 250px; height: 250px; margin: 0 auto; display: block;" />
+        </div>
+        <div class="infoblock_right">
+            <h2>nerd</h2>
+            <p>
+                Some have urged my to avoid the use of the word <em>"nerd"</em>, but I like it. I'm proud to call myself a nerd, but I am not a <em>"tech-enthusiast"</em> ; you won't find me
+                spending money on the latest tech gimmick or wearing a star wars shirt. Professionally, I'm a Software Developer. My education is in Computer Science with an emphasis on Electrical Engineering.
+                My professional experience is largely as a full-stack web developer. My nerdy interests include number theory, graph theory, set theory, ternary logic, cryptography,
+                project management, and a bunch more that I won't bore you with.
+            </p>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="infoblock" data-target="Scotch">
+        <div class="infoblock_left">
+            <img src="/Asset/scotch.jpg" alt="profile picture" style="width: 250px; height: 250px; margin: 0 auto; display: block;" />
+        </div>
+        <div class="infoblock_right">
+            <h2>scotch</h2>
+            <p>
+                My current startup budget doesn't leave much room for fancy Scotches, but I'm crazy for anything Islay. My favorites being Laphroaig and Lagavulin.
+                In my single-malt Scotch-drinking youth (25-28) I enjoyed it neat, but now I prefer just a splash of water to help open up the flavors. Never with ice.
+                These days are more hectic than ever for me, so if you're every vying for some of my time, buying my anything Islay is a great place to start.
+            </p>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div id="footer">
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#ImageBackground').height($(window).height());
+            $('.infoblock').click(function () {
+                window.location.href = $(this).attr('data-target');
+            });
+        })
+    </script>
+</body>
+
+
 
 </html>

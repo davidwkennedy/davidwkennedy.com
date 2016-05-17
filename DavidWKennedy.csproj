@@ -38,22 +38,49 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="googlea7d33450a6a882b2.html" />
+    <Content Include="Scotch.html" />
+    <Content Include="Advntur.html" />
+    <Content Include="Asset\advnturpage.jpg" />
+    <Content Include="Asset\nerdpage.jpg" />
+    <Content Include="Asset\scotchpage.jpg" />
+    <Content Include="Nerd.html" />
+    <Content Include="AboutMe.html" />
     <Content Include="Asset\8088.jpg" />
+    <Content Include="Asset\aboutme.jpg" />
+    <Content Include="Asset\advntur.jpg" />
+    <Content Include="Asset\advntur.logo.png" />
+    <Content Include="Asset\advntur_logo.jpg" />
+    <Content Include="Asset\backpack.jpg" />
+    <Content Include="Asset\backpacking.jpg" />
+    <Content Include="Asset\backpacking2.jpg" />
+    <Content Include="Asset\davidwkennedy.css" />
+    <Content Include="Asset\nerd.jpg" />
+    <Content Include="Asset\profile.jpg" />
+    <Content Include="Asset\scotch.jpg" />
+    <Content Include="Asset\Sierra.jpg" />
+    <Content Include="Asset\Uncompressed\8088.jpg" />
+    <Content Include="Asset\Uncompressed\aboutme.jpg" />
+    <Content Include="Asset\Uncompressed\advntur.jpg" />
+    <Content Include="Asset\Uncompressed\advntur_logo.jpg" />
+    <Content Include="Asset\Uncompressed\backpack.jpg" />
+    <Content Include="Asset\Uncompressed\backpacking.jpg" />
+    <Content Include="Asset\Uncompressed\backpacking2.jpg" />
+    <Content Include="Asset\Uncompressed\nerd.jpg" />
+    <Content Include="Asset\Uncompressed\profile.jpg" />
+    <Content Include="Asset\Uncompressed\scotch.jpg" />
+    <Content Include="Asset\Uncompressed\Sierra.jpg" />
+    <Content Include="Backpacking - Copy.html" />
+    <Content Include="Backpacking.html" />
     <Content Include="index.html" />
-    <Content Include="Web.config" />
+    <Content Include="sitemap.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+    <Content Include=".htaccess" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
