@@ -4,24 +4,86 @@
     <title>David Kennedy | About Me</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/Asset/davidwkennedy.css" />
+    <style>
+        #nerd_heading_paragraph {
+            color: #233047;
+            font-size: 30px;
+            font-weight: bold;
+            /*text-align: center;*/
+            font-family: georgia;
+            font-style: italic;
+        }
+    </style>
+
+
+
 </head>
-    <body>
-        <div id="ImageBackground_Nerd">
-            <div id="subtitle">
-                <span class="line"></span>
-                <span class="subtitle">programming &#149; math &#149; science</span>
-                <span class="line"></span>
-            </div>
-            <div id="title">
-                Nerd
-            </div>
+<body>
+    <div id="ImageBackground_Nerd">
+        <div id="subtitle">
+            <span class="line"></span>
+            <span class="subtitle">programming &#149; math &#149; science</span>
+            <span class="line"></span>
         </div>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script>
-        $(document).ready(function () {
-            $('#ImageBackground_Nerd').height($(window).height());
-        })
-        </script>
-    </body>
+        <div id="title">
+            Nerd
+        </div>
+    </div>
+    <div class="body">
+        <p id="nerd_heading_paragraph">
+            What I mean by "nerd" is that I enjoy math, science, and other technical persuits; nerd makes no statement whatsoever about any proclivity for Star Trek or any other pop culture.
+        </p>
+        <p>
+            <strong>When</strong> my wonderful girlfriend is out of town for the weekend, I don't hit up the town with my boys. Lazy weekends are spent working through end-of-chapter problems
+            in my math books, such as Concrete Math by Graham, Kuth, and Patushnik. My nerdy interests are many, but I go through phases during which some topics garner more of my time.
+            Staples are numbery theory, set theory, graphy theory, data-compression, and cryptography. Some of my current "phase" interests include ternary logic, cartography, typography,
+            and software project management.
+        </p>
+        <p>
+            <strong>Professionally</strong> I'm a software developer. My expertise is web development on the .NET stack, which includes ASP.NET, C#, Sql Server, Internet Information Services (IIS).
+            Nearly all of my web development relies heavily JavaScript, CSS, HTML, XML, and other supporting technologies. I've professionally developed or maintained applications written in Java, C++,
+            MYSql, Node.js, and a few other technologies. I've dabbled in Python, Php, MatLab, x86 assembly, and others. I have never once written a single line of Perl. If possible, I try to
+            avoid VB Script, VBA, or Classic ASP.
+        </p>
+
+        <p>
+            <strong>I started</strong> programming by teaching myself using my TI-86 calculator manual; my motivation was to write programs to do my math homework
+            <em>for</em> me. My first program multipled any number by 5. I then explored QBasic and JavaScript. I attended Utah State University to study Computer Engineering,
+            which is a specialized form of Electrical Engineering (emphasising Computer Science) and is in the College of Engineering. After 2 years I switched to Computer Science with an emphasis
+            on Electrical Engineering; Computer Science was in the College of Science. Since my departure from USU, the CS deparment has been moved from the College of Science to the College of
+            Engineering - a move with which I disagree.
+        </p>
+        <p>
+            <strong>It is</strong> my firm belief that professional software development is much more than "memorizing the codes", as many people seem to believe. Software development 
+            is the process by which business needs are codified. 
+        </p>
+        <iframe width="780" height="438" src="https://www.youtube.com/embed/N9qYF9DZPdw" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        $('#ImageBackground_Nerd').height($(window).height());
+    });
+    //StatCounter -----------------------------------------------------------------
+    var sc_project = 10975570;
+    var sc_invisible = 1;
+    var sc_security = "ee64fef5";
+    var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+    document.write("<sc" + "ript type='text/javascript' src='" +
+        scJsHost +
+        "statcounter.com/counter/counter.js'></" + "script>");
+    // Google Analytics ----------------------------------------------------------------            
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-3796534-2', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+</body>
 </html>
